@@ -1,3 +1,6 @@
+// Está com os problemas na parte da biblioteca ainda Orlando. Como mudamos de liguagem ficou um pouco mais corrido entao estamos postando essa para realizar alterações 
+//posteriormente
+
 #include <stdio.h>
 #include <errno.h>
 #include <stdlib.h>
