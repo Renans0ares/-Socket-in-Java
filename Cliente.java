@@ -7,7 +7,7 @@ public class Cliente {
     try{	
       Socket s=new Socket("localhost",6666);
       DataOutputStream dout=new DataOutputStream(s.getOutputStream());
-      dout.writeUTF("Hello Server");
+      dout.writeUTF("Olá Servidor");
       dout.flush();
       dout.close();
       s.close();
